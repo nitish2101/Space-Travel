@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="technology.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Space Tourism</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <img class="logo" src="./assets/shared/logo.svg" alt="logo" />
+        <div class="line"></div>
+        <nav>
+          <a href="./index.html"><span>00 </span> Home</a>
+          <a href="./destination-moon.html"><span>01 </span> Destination</a>
+          <a href="./crew.html"><span>02 </span> Crew</a>
+          <a href="./technology.html"><span>03 </span> Technology</a>
+        </nav>
+      </div>
+      <div class="left-box">
+        <div class="link-dots">
+          <div onclick="launch()" style="cursor: pointer">
+            <a onclick="launch()" class="circle launch" href="#">1</a>
+          </div>
+          <div onclick="spaceport()" style="cursor: pointer">
+            <a onclick="spaceport()" class="circle spaceport" href="#">2</a>
+          </div>
+          <div onclick="capsule()" style="cursor: pointer">
+            <a onclick="capsule()" class="circle capsule" href="#">3</a>
+          </div>
+        </div>
+        <div class="info">
+          <p class="crew-line">
+            <span class="number">03</span>
+            SPACE LAUNCH 101
+          </p>
+          <h1 class="post">The Terminology...</h1>
+          <h1 class="name">LAUNCH VECHICLE</h1>
+          <p id="post-info">
+            A launch vehicle or carrier rocket is a rocket-propelled vehicle
+            used to carry a payload from Earth's surface to space, usually to
+            Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful
+            in operation. Standing 150 metres tall, it's quite an awe-inspiring
+            sight on the launch pad!
+          </p>
+        </div>
+      </div>
+      <div class="vehicle">
+        <img
+          class="vehicle-img"
+          src="./assets/technology/image-launch-vehicle-portrait.jpg"
+          alt="launch vehicle image"
+        />
+      </div>
+    </div>
+    <script src="./technology.js"></script>
+  </body>
+</html>
